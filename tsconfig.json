@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts", "src/*.ts", "src/repo/like.ts"],
+  "exclude": ["node_modules"]
+}
